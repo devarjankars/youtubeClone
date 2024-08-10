@@ -1,10 +1,12 @@
-
+import Body from "./component/Body";
+import Head from './component/Head'
 function App() {
   
 
   return (
     <>
-      <h2 className= " items-center bg-cyan-800"> Hello world</h2>
+    <Head />
+    <Body/>
     </>
   )
 }
